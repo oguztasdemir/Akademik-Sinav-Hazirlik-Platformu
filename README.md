@@ -1,26 +1,26 @@
 # 🎓 Akademik Sınav Hazırlık & İnteraktif Soru Çözüm Platformu (PWA)
 
-Bu proje; üniversite lisans/yüksek lisans dönemi **İş Sağlığı ve Güvenliği (İSG)**, **Makine Öğrenmesi (ML)**, **Üretken Yapay Zeka (Generative AI - GAI)** ve **Veri Yapıları (Data Structures - DS)** final sınavlarına çalışma, konu kavrama ve soru tekrarı amacıyla geliştirilmiş **Progressive Web App (PWA)** destekli yerel soru çözüm platformudur.
+Bu proje; üniversite dönem sonu **İş Sağlığı ve Güvenliği (İSG)**, **Makine Öğrenmesi (ML)**, **Üretken Yapay Zeka (Generative AI - GAI)** ve **Dijital Sürdürülebilirlik (DS)** final sınavlarına çalışma, konu kavrama ve soru tekrarı amacıyla geliştirilmiş **Progressive Web App (PWA)** destekli yerel soru çözüm platformudur.
 
 ---
 
 ## 🚀 Öne Çıkan Özellikler
 
-* 📱 **PWA & Mobil Cihaz Entegrasyonu:** main.py çalıştırıldığında terminalde otomatik IP ve dinamik QR kod üretir. Telefondan QR kod taranarak aynı yerel ağ üzerinden uygulama mobil tarayıcıda veya ana ekrana eklenerek (PWA) tam ekran kullanılabilir.
-* 📚 **Çoklu Ders & Final Modülleri:**
-  * 🛡️ **İSG (İş Sağlığı ve Güvenliği):** Mevzuat, risk değerlendirmesi ve iş güvenliği soru setleri.
-  * 🤖 **ML (Machine Learning):** Denetimli/denetimsiz öğrenme, regresyon, sınıflandırma ve metrik analiz soruları.
+* 📱 **PWA & Dinamik QR Kod Entegrasyonu:** main.py çalıştırıldığında terminalde otomatik yerel IP ve QR kod üretir. Telefondan QR kod taranarak aynı ağ üzerinden uygulama mobil tarayıcıda açılabilir veya ana ekrana eklenerek (PWA) tam ekran uygulama gibi kullanılabilir.
+* 📚 **4 Temel Final Dersi Modülü:**
+  * 🛡️ **İSG (İş Sağlığı ve Güvenliği):** Mevzuat, iş güvenliği kuralları ve risk değerlendirme soru setleri.
+  * 🤖 **ML (Machine Learning):** Denetimli/denetimsiz öğrenme, regresyon, sınıflandırma ve model metrikleri.
   * 🎨 **GAI (Generative AI):** LLM mimarileri, prompt mühendisliği, difüzyon modelleri ve üretken yapay zeka kavramları.
-  * 🌳 **DS (Data Structures):** Ağaçlar, graflar, yığınlar, kuyruklar ve zaman karmaşıklığı analiz soruları.
-* ⚡ **İnteraktif Çözüm Modları:** Konu testleri, karışık deneme sınavları, yanlış yapılan soruların analizi ve anlık cevap geribildirimi.
+  * 🌿 **DS (Dijital Sürdürülebilirlik):** Yeşil bilişim, dijital dönüşümün çevresel etkileri, sürdürülebilir teknoloji ve enerji verimliliği soruları.
+* ⚡ **İnteraktif Çözüm & Anlık Geribildirim:** Konu testleri, karışık deneme sınavları, yanlış yapılan soruların analizi ve doğru/yanlış anlık çözüm açıklamaları.
 * 📶 **%100 Çevrimdışı (Offline) Desteği:** Service Worker (sw.js) ve yerel statik mimari sayesinde internet bağlantısı olmadan da kesintisiz çalışır.
 
 ---
 
-## 🛠️ Teknik Altyapı & Mimarî
+## 🛠️ Teknik Altyapı & Mimari
 
-* **Arka Yüz (Local Server):** Python http.server, socket, qrcode (Otomatik LAN IP çözümleme ve QR kod konsol render motoru).
-* **Ön Yüz (PWA Client):** Vanilla JavaScript (ES6+), Modern CSS3 (Dark/Light Responsive Design), HTML5 Semantic.
+* **Arka Yüz (Yerel Sunucu):** Python http.server, socket, qrcode (Otomatik LAN IP çözümleme ve QR kod konsol render motoru).
+* **Ön Yüz (PWA İstemcisi):** Vanilla JavaScript (ES6+), Modern CSS3 (Responsive Design), HTML5 Semantic.
 * **Depolama & Önbellek:** Service Worker Cache API & LocalStorage.
 
 ---
