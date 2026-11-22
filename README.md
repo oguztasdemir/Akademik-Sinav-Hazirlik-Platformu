@@ -1,5 +1,8 @@
 # 🎓 Akademik Sınav Hazırlık & İnteraktif Soru Çözüm Platformu (PWA)
 
+[![CI Tests](https://github.com/oguztasdemir/Akademik-Sinav-Hazirlik-Platformu/actions/workflows/ci.yml/badge.svg)](https://github.com/oguztasdemir/Akademik-Sinav-Hazirlik-Platformu/actions/workflows/ci.yml)
+
+
 Bu proje; üniversite dönem sonu **İş Sağlığı ve Güvenliği (İSG)**, **Makine Öğrenmesi (ML)**, **Üretken Yapay Zeka (Generative AI - GAI)** ve **Dijital Sürdürülebilirlik (DS)** final sınavlarına çalışma, konu kavrama ve soru tekrarı amacıyla geliştirilmiş **Progressive Web App (PWA)** destekli yerel soru çözüm platformudur.
 
 ---
@@ -40,3 +43,29 @@ python main.py
 
 ## 👤 Geliştirici
 * **Oğuz Taşdemir** — [GitHub](https://github.com/oguztasdemir) • [LinkedIn](https://www.linkedin.com/in/oguz-tasdemir-846889353/)
+
+
+---
+
+## Ekran Görüntüleri
+
+### Akademik Sinav Merkezi Ders Secimi
+![Akademik Sinav Merkezi Ders Secimi](docs/screenshots/01_akademik_sinav_merkezi_ders_secimi.png)
+
+### Ders Dashboard Ve Istatistikler
+![Ders Dashboard Ve Istatistikler](docs/screenshots/02_ders_dashboard_ve_istatistikler.png)
+
+### Mobil Pwa Soru Cozum Arayuzu
+![Mobil Pwa Soru Cozum Arayuzu](docs/screenshots/04_mobil_pwa_soru_cozum_arayuzu.png)
+
+
+---
+
+## Yerel Testler
+
+Projenin temel çalışma ve sözdizimi doğrulama testlerini çalıştırmak için:
+
+```bash
+pip install pytest
+pytest tests -v
+```
